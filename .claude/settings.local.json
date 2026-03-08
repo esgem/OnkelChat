@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/esm/dev/**)",
+      "Bash(npx create-next-app@latest OnkelChat --typescript --tailwind --eslint --app --src-dir=false --import-alias=\"@/*\" --no-turbopack)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(node:*)",
+      "Bash(cp:*)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
